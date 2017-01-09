@@ -26,7 +26,7 @@ touch main.rb
 
 Every Gosu app starts with a class that derives from Gosu::Window, which creates a new window on your screen every time you run the game. Gosu::Window will also initialize all of gosu's core components.
 
-```
+``` Ruby ```
 require 'gosu'
 
 class GameWindow < Gosu::Window
@@ -50,7 +50,7 @@ window.show
 If you want a fullscreen window instead of a predetermined height and width, run 
 :fullscreen => true after the window height:
 
-```
+```Ruby```
 class GameWindow < Gosu::Window
 def initialize
 super WIDTH, HEIGHT
@@ -68,7 +68,7 @@ update() contains the main game logic: move objects, handle collisions, etc.
 
 Placing a puts statement inside the #update method will allow you to see the 60 calls per second.
 
-```
+```Ruby```
 def update
 puts "Testing fps for update"
 end
