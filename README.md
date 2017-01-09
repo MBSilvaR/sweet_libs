@@ -58,7 +58,7 @@ super WIDTH, HEIGHT
 self.caption = "Sushi!!"
 end
 
-
+```
 2. update() and draw()
 
 These two methods override Gosu::Window and allow Gosu to display the game elements on the screen.
@@ -68,6 +68,7 @@ update() contains the main game logic: move objects, handle collisions, etc.
 
 Placing a puts statement inside the #update method will allow you to see the 60 calls per second.
 
+```
 def update
 puts "Testing fps for update"
 end
