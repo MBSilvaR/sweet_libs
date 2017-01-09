@@ -25,9 +25,10 @@ mkdir lib
 mkdir img
 touch main.rb
 
+```
 Every Gosu app starts with a class that derives from Gosu::Window, which creates a new window on your screen every time you run the game. Gosu::Window will also initialize all of gosu's core components.
 
-```  
+```
 require 'gosu'
 
 class GameWindow < Gosu::Window
