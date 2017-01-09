@@ -50,7 +50,7 @@ window.show
 
 ```
 If you want a fullscreen window instead of a predetermined height and width, run 
-```:fullscreen =>``` true after the window height:
+```:fullscreen => true``` after the window height:
 
 ```
 class GameWindow < Gosu::Window
