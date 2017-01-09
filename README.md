@@ -35,18 +35,18 @@ super WIDTH, HEIGHT
 self.caption = "Sushi!!"
 end
 
-```
+
 def update
 end
 
-```
+
 def draw
 end
-```
+
 window = GameWindow.new
 window.show
 
-
+```
 If you want a fullscreen window instead of a predetermined height and width, run 
 :fullscreen => true after the window height:
 
