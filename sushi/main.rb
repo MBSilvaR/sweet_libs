@@ -59,7 +59,7 @@ class GameWindow < Gosu::Window
     @sushi.each { |sushi| sushi.draw }
     @background_image.draw(0, 0, ZOrder::Background)
     @font.draw("SCORE: #{@player.score}", 10, 10, ZOrder::UI, 1.0, 1.0, 0xff_000000)
-    @font.draw("Sushi Game!! Developed with Gosu by Fariha, Leslie, James and Marcela", 175, 10, ZOrder::UI, 1.0, 1.0, 0xff_fff000)
+    @font.draw("Sushi Game!! Developed with Gosu by Leslie, Fariha, James and Marcela", 175, 10, ZOrder::UI, 1.0, 1.0, 0xff_fff000)
   end
 
   def button_down(id)
